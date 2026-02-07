@@ -1,10 +1,60 @@
+h1{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  font-family: cursive;
+  background-color: lightblue;
+  padding: 30px;
+}
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-size: 14px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
   line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.pic-paragraph {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  background-color: #f5f9ff;
+  padding: 20px;
+  border-radius: 12px;
+}
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-pic:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.pic-paragraph p {
+  flex: 1;
+  margin: 0;
+  max-width: 960px ;
+  color:#333;
 }
 
 .container {
   max-width: 960px;
   margin: 0 auto;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+  background-color: lightblue;
+  width: 75%;
+  padding: 10px;
 }
